@@ -50,7 +50,9 @@ print('grape' in list1)
 # 合并
 list5 = [1, 3, 5, 7]
 list6 = [4, 4, 8]
-list6 += list5
+# list6 += list5
+# 列表五的结果合并到列表六中
+list6.extend(list5)
 print(list6)
 
 # 比较
